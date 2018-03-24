@@ -1,10 +1,10 @@
-google-chrome 65.0.3325.181-1
-jdk 10-1
-jdownloader2 latest-13
-oh-my-zsh-git r4400.0cec4626-1
-phpstorm 2017.3.6-1
-phpstorm-jre 2017.3.6-1
-pycharm-professional 2017.3.4-1
-system-san-francisco-font-git 1.0-1
-tmux-bash-completion r13.847eda6-1
-visual-studio-code-bin 1.21.1-1
+google-chrome
+jdk
+jdownloader2
+oh-my-zsh-git
+phpstorm
+phpstorm-jre
+pycharm-professional
+system-san-francisco-font-git 
+tmux-bash-completion 
+visual-studio-code-bin 

@@ -11,16 +11,3 @@ Le dossier custom et doit aller au .oh-my-zsh.
 ```
 cat package.list | xargs yaourt -S --needed --noconfirm
 ```
-
-## Remapper touches du clavier
-
-Pour remplacer une touche par une autre. Je l'utilise pour remplacer la touche puissance 2 par un back-tick.
-
-```
-# On génère le fichier de map
-xmodmap -pke > ~/.Xmodmap
-# On trouve la clef a remap
-xev | awk -F'[ )]+' '/^KeyPress/ { a[NR+2] } NR in a { printf "%-3s %s\n", $5, $8 }'
-# On modifie le fichier Xmodmap et on teste avec
-xmodmap ~/.Xmodmap
-```
